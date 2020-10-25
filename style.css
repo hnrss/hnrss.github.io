@@ -1,104 +1,63 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=PT+Serif&family=Source+Code+Pro&display=swap');
 
 body {
-	font: 15px/1.5 Rubik, sans-serif;
 	color: #333;
-	margin: 25px;
+	font: 400 16px/1.5 'PT Serif', serif;
+	max-width: 768px;
+	margin: 1rem auto;
+	padding: 1rem 2rem;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
-	margin-top: 30px;
-	margin-bottom: 10px;
-	padding-bottom: 5px;
-	border-bottom: thin solid #ddd;
+h1, h2, h3 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
 }
 
-h1, h2 {
-	border-bottom: 0;
-	margin-top: 20px;
-}
-
-.new {
-	font-size: 11px;
-	text-transform: uppercase;
-	color: orangered;
-	font-weight: normal;
-}
-
-sup.new { font-size: 8.5px; }
-
-p {
-	margin-top: 0;
-}
+p { font-size: 1rem; }
+h3 { font-size: 1.528rem; }
+h2 { font-size: 1.888rem; }
+h1 { font-size: 2.334rem; }
 
 a {
 	color: inherit;
 }
 
 a:hover {
-	color: #666;
 	text-decoration: none;
 }
 
-code, pre {
-	background: #eee;
+pre, code {
+	background: #EBF9FF;
+	font-family: 'Source Code Pro', monospace;
+	line-height: 1.8;
 }
 
 code {
-	padding: 3px 7px;
+	padding: 0.25rem 0.5rem;
 }
 
 pre {
-	padding: 8px;
-	overflow: scroll;
-}
-
-.root {
-	color: #777;
-}
-
-pre, code {
-	background-color: #EBF9FF;
+	padding: 1rem 3rem;
+	margin-left: -3rem;
+	margin-right: -3rem;
+	overflow: auto;
 }
 
 table {
-	border-spacing: 0;
-	border-collapse: separate;
-}
-
-tr.odd {
-	background-color: #EBF9FF;
+	border-collapse: collapse;
 }
 
 td {
-	padding: 10px;
+	padding: 0.5rem 0;
+	vertical-align: top;
 }
 
-col {
-	width: initial !important;
+td:nth-child(1) {
+	width: 30%;
+	text-align: right;
+	padding: 0.5rem 1rem;
 }
 
-tr td:nth-child(1) {
-	width: 25%;
-}
-
-@media (min-width: 800px) {
-	body {
-		width: 768px;
-		margin: 50px auto;
-	}
-
-	h1, h2, h3, h4, p, ul, table {
-		margin-left: 60px;
-		margin-right: 60px;
-	}
-
-	ul ul {
-		margin-left: 0;
-	}
-
-	pre {
-		padding-left: 60px;
-		overflow: visible;
-	}
+tr:nth-child(odd) {
+	background: #EBF9FF;
 }
