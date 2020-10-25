@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=PT+Serif&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=PT+Serif:wght@400,700&family=Source+Code+Pro&display=swap');
 
 body {
 	color: #333;
@@ -60,4 +60,10 @@ td:nth-child(1) {
 
 tr:nth-child(odd) {
 	background: #EBF9FF;
+}
+
+.updated {
+	border-top: 1px solid #ddd;
+	padding-top: 1rem;
+	margin-top: 4rem;
 }
