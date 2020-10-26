@@ -87,6 +87,11 @@ https://hnrss.org/newcomments?q=WordPress
 <pre>
 https://hnrss.org/newest?q=git+OR+linux
 </pre>
+<p>If your query contains <a href="https://en.wikipedia.org/wiki/Percent-encoding#Percent-encoding_reserved_characters">reserved characters</a> (especially the plus sign), you'll need to percent-encode those characters:</p>
+<pre>
+# This is the percent-encoded form of C++
+https://hnrss.org/newest?q=C%2B%2B
+</pre>
 
 <h3 id="reply-feeds">Reply Feeds</h3>
 <p>Keep an eye on replies to your comments:</p>
