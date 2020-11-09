@@ -32,6 +32,10 @@
 <td>New comments in reply to a particular <a href="https://hnrss.org/replies?id=jerf">user</a> or <a href="https://hnrss.org/replies?id=17752464">comment</a>.</td>
 </tr>
 <tr >
+<td ><a href="#favorite-feeds"><strong>Favorites</strong></a> <sup class="new">New</sup></td>
+<td>New posts that have been <a href="https://hnrss.org/favorites?id=edavis">favorited</a> by a particular user</td>
+</tr>
+<tr >
 <td ><a href="#activity-parameters"><strong>Points</strong></a></td>
 <td>New <a href="https://hnrss.org/newest?points=300">posts</a> with more than N points.</td>
 </tr>
@@ -102,6 +106,14 @@ https://hnrss.org/replies?id=jerf
 <pre>
 https://hnrss.org/replies?id=17752464
 </pre>
+
+<h3 id="favorite-feeds">Favorite Feeds <sup class="new">New</sup></h3>
+<p>Supply a username and get a feed of posts that have been "favorited" by that user:</p>
+<pre>
+https://hnrss.org/favorites?id=edavis
+</pre>
+<p>At the moment this only returns posts, not comments.</p>
+<p>Note: This scrapes Hacker News first and then fetches from Algolia. For this reason, please be extra conservative with your refresh schedule. Thanks in advance.</p>
 
 <h3 id="self-post-feeds">Self Post Feeds</h3>
 <p>Ask HN, Show HN, and polls are available:</p>
@@ -242,4 +254,4 @@ The go-hnrss and hnrss-docs repos have been archived.
 A <a href="https://github.com/hnrss/hnrss.github.io">new repo</a> has been created to house the docs.
 The new URL for hnrss.org documentation is <a href="https://hnrss.github.io/">hnrss.github.io</a>.
 
-<p class="updated">This documentation was last updated on October 25, 2020.</p>
+<p class="updated">This documentation was last updated on November 8, 2020.</p>

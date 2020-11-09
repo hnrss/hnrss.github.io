@@ -67,3 +67,11 @@ tr:nth-child(odd) {
 	padding-top: 1rem;
 	margin-top: 4rem;
 }
+
+.new {
+	font-size: 7pt;
+	text-transform: uppercase;
+	color: orangered;
+	font-weight: normal;
+	font-family: Inter, sans-serif;
+}
