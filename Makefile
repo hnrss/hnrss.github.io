@@ -1,2 +1,2 @@
-feed.xml: updates.rec
+updates.xml: updates.rec
 	./build-feed.sh

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-OUTPUT=feed.xml
+OUTPUT=updates.xml
 
 echo '<?xml version="1.0" encoding="utf-8"?>' >$OUTPUT
 echo '<rss version="2.0">' >>$OUTPUT
