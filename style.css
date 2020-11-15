@@ -75,3 +75,8 @@ tr:nth-child(odd) {
 	font-weight: normal;
 	font-family: Inter, sans-serif;
 }
+
+.rss {
+	height: 1em;
+	margin-right: 8px;
+}
