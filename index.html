@@ -20,10 +20,7 @@
 <td ><a href="#firehose-feeds"><strong>Firehose</strong></a></td>
 <td>New <a href="https://hnrss.org/newest">posts</a> and <a href="https://hnrss.org/newcomments">comments</a> as they arrive.</td>
 </tr>
-<tr >
-<td ><a href="#firehose-feeds"><strong>Front Page</strong></a></td>
-<td>New <a href="https://hnrss.org/frontpage">posts</a> as they appear on the front page.</td>
-</tr>
+
 <tr >
 <td ><a href="#search-feeds"><strong>Searches</strong></a></td>
 <td>New <a href="https://hnrss.org/newest?q=redis">posts</a> and <a href="https://hnrss.org/newcomments?q=linux">comments</a> matching a given search term.</td>
@@ -35,13 +32,9 @@
 
 <tr>
 <td><a href="#bestcomments"><strong>Best Comments</strong></a> <sup class="new">New</sup></td>
-<td>The <a href="https://news.ycombinator.com/bestcomments">best comments</a> from across Hacker News</td>
+<td>The <a href="https://hnrss.org/bestcomments">best comments</a> from across Hacker News.</td>
 </tr>
 
-<tr >
-<td ><a href="#favorite-feeds"><strong>Favorites</strong></a> <sup class="new">New</sup></td>
-<td>New posts that have been <a href="https://hnrss.org/favorites?id=edavis">favorited</a> by a particular user</td>
-</tr>
 <tr >
 <td ><a href="#activity-parameters"><strong>Points</strong></a></td>
 <td>New <a href="https://hnrss.org/newest?points=300">posts</a> with more than N points.</td>
@@ -50,10 +43,22 @@
 <td ><a href="#activity-parameters"><strong>Activity</strong></a></td>
 <td>New <a href="https://hnrss.org/newest?comments=250">posts</a> with more than N comments.</td>
 </tr>
+
+<tr >
+<td ><a href="#firehose-feeds"><strong>Front Page</strong></a></td>
+<td>New <a href="https://hnrss.org/frontpage">posts</a> as they appear on the front page.</td>
+</tr>
+
 <tr >
 <td ><a href="#self-post-feeds"><strong>Self-posts</strong></a></td>
 <td>New “<a href="https://hnrss.org/ask">Ask HN</a>” and “<a href="https://hnrss.org/show">Show HN</a>” posts, along with <a href="https://hnrss.org/polls">polls</a>.</td>
 </tr>
+
+<tr>
+<td><a href="#alternative-feeds"><strong>Alternative</strong></a> <sup class="new">New</sup></td>
+<td>Follow Hacker News through some alternative homepages.</td>
+</tr>
+
 <tr >
 <td ><a href="#job-feeds"><strong>Jobs</strong></a></td>
 <td>New <a href="https://hnrss.org/jobs">hiring posts</a> made by YC startups along with comments from the monthly <a href="https://hnrss.org/whoishiring/jobs">“Who is hiring?”</a> threads.</td>
@@ -62,6 +67,12 @@
 <td ><a href="#user-feeds"><strong>Users</strong></a></td>
 <td>New <a href="https://hnrss.org/submitted?id=jacquesm">posts</a> and <a href="https://hnrss.org/threads?id=tptacek">comments</a> made by a given user.</td>
 </tr>
+
+<tr >
+<td ><a href="#favorite-feeds"><strong>Favorites</strong></a> <sup class="new">New</sup></td>
+<td>New posts that have been <a href="https://hnrss.org/favorites?id=edavis">favorited</a> by a particular user</td>
+</tr>
+
 <tr >
 <td ><a href="#thread-feeds"><strong>Threads</strong></a></td>
 <td>New comments made <a href="https://hnrss.org/item?id=17821181">in a given thread</a>.</td>
@@ -73,7 +84,7 @@
 </tbody>
 </table>
 
-<p><img class="rss" src="//s.svgbox.net/social.svg?fill=f26522&ic=rss">Stay up-to-date with hnrss development via RSS: <a href="https://hnrss.github.io/updates.xml">https://hnrss.github.io/updates.xml</a></p>
+<p class="mb-3"><img class="rss" src="//s.svgbox.net/social.svg?fill=f26522&ic=rss">Stay up-to-date with hnrss development via RSS: <a href="https://hnrss.github.io/updates.xml">https://hnrss.github.io/updates.xml</a></p>
 
 <h2 id="details">Feeds</h2>
 <p>Each feed is <a href="https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fhnrss.org%2Fnewest">valid RSS</a> served over <a href="https://www.ssllabs.com/ssltest/analyze.html?d=hnrss.org">HTTPS</a>.</p>
@@ -123,14 +134,6 @@ https://hnrss.org/bestcomments
 </pre>
 <p>Some great stuff in here in threads you may not normally have opened. Definitely recommended.</p>
 
-<h3 id="favorite-feeds">Favorite Feeds <sup class="new">New</sup></h3>
-<p>Supply a username and get a feed of posts that have been "favorited" by that user:</p>
-<pre>
-https://hnrss.org/favorites?id=edavis
-</pre>
-<p>At the moment this only returns posts, not comments.</p>
-<p>Note: This scrapes Hacker News first and then fetches from Algolia. For this reason, please be extra conservative with your refresh schedule. Thanks in advance.</p>
-
 <h3 id="self-post-feeds">Self Post Feeds</h3>
 <p>Ask HN, Show HN, and polls are available:</p>
 <pre>
@@ -138,6 +141,13 @@ https://hnrss.org/ask
 https://hnrss.org/show
 https://hnrss.org/polls
 </pre>
+
+<h3 id="alternative-feeds">Alternative Feeds <sup class="new">New</sup></h3>
+<p>Hacker News <a href="https://news.ycombinator.com/classic">Classic</a> only counts votes from "early users" (accounts created before February 13, 2008):
+<pre>
+https://hnrss.org/classic
+</pre>
+<p>Hacker News <a href="https://news.ycombinator.com/best">Best</a> is coming soon.
 
 <h3 id="job-feeds">Job Feeds</h3>
 <p>Job opportunities from YC funded startups:</p>
@@ -170,6 +180,14 @@ https://hnrss.org/submitted?id=USERNAME # posts
 https://hnrss.org/threads?id=USERNAME   # comments
 https://hnrss.org/user?id=USERNAME      # everything
 </pre>
+
+<h3 id="favorite-feeds">Favorite Feeds <sup class="new">New</sup></h3>
+<p>Supply a username and get a feed of posts that have been "favorited" by that user:</p>
+<pre>
+https://hnrss.org/favorites?id=edavis
+</pre>
+<p>At the moment this only returns posts, not comments.</p>
+<p>Note: This scrapes Hacker News first and then fetches from Algolia. For this reason, please be extra conservative with your refresh schedule. Thanks in advance.</p>
 
 <h3 id="thread-feeds">Thread Feeds</h3>
 <p>A feed of new comments on a particular post can be found at:</p>
