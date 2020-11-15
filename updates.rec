@@ -1,0 +1,23 @@
+%rec: Item
+
+Date: Wed, 11 Nov 2020 00:00:00 +0000
+Title: hnrss.org now supports /bestcomments and /classic
+Link: https://hnrss.github.io/
+Description: <p>Two new endpoints have been added to hnrss.org:</p>
++ <ul>
++ <li>https://news.ycombinator.com/bestcomments is a list of the highest-voted recent comments. You can obtain this feed from https://hnrss.org/bestcomments.</li>
++ <li>https://news.ycombinator.com/classic ranks posts only using votes from accounts created before Feb 13, 2008. You can obtain this feed from https://hnrss.org/classic.</li>
++ </ul>
+Guid: f0dd0dba-a127-4d7a-8686-490a7f0ee030
+
+Date: Sun, 08 Nov 2020 00:00:00 +0000
+Title: hnrss.org now supports feeds of favorited posts
+Link: https://hnrss.github.io/#favorite-feeds
+Description: The URL structure is https://hnrss.org/favorites?id=USER
+Guid: d9f96080-360b-4281-995a-b695c6ae1191
+
+Date: Sun, 25 Oct 2020 00:00:00 +0000
+Title: Hello World
+Link: https://hnrss.github.io/
+Description: Follow this feed for hnrss.org news and announcements.
+Guid: 79f833a1-50c0-4bd2-8897-f606f7214cfe
