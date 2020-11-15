@@ -1,5 +1,16 @@
 %rec: Item
 
+Date: Sun, 15 Nov 2020 23:13:44 +0000
+Title: New endpoints for Best, Invited, Active, and Launches
+Link: https://hnrss.github.io/#alternative-feeds
+Description: <ul>
++ <li><a href="https://hnrss.org/best">https://hnrss.org/best</a> for the top recent vote getters</li>
++ <li><a href="https://hnrss.org/invited">https://hnrss.org/invited</a> for posts <a href="https://news.ycombinator.com/item?id=20508960">given a second chance by the mods</a></li>
++ <li><a href="https://hnrss.org/active">https://hnrss.org/active</a> for posts with active, ongoing discussions</li>
++ <li><a href="https://hnrss.org/launches">https://hnrss.org/launches</a> for YC launches</li>
++ </ul>
+Guid: 5d76be72-b645-4e2b-a8cf-cf92f68b7774
+
 Date: Wed, 11 Nov 2020 00:00:00 +0000
 Title: hnrss.org now supports /bestcomments and /classic
 Link: https://hnrss.github.io/

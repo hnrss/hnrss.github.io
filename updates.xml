@@ -5,6 +5,18 @@
     <link>https://hnrss.org/</link>
     <description>A feed announcing updates related to hnrss.org</description>
     <item>
+      <title><![CDATA[New endpoints for Best, Invited, Active, and Launches]]></title>
+      <description><![CDATA[<ul>
+<li><a href="https://hnrss.org/best">https://hnrss.org/best</a> for the top recent vote getters</li>
+<li><a href="https://hnrss.org/invited">https://hnrss.org/invited</a> for posts <a href="https://news.ycombinator.com/item?id=20508960">given a second chance by the mods</a></li>
+<li><a href="https://hnrss.org/active">https://hnrss.org/active</a> for posts with active, ongoing discussions</li>
+<li><a href="https://hnrss.org/launches">https://hnrss.org/launches</a> for YC launches</li>
+</ul>]]></description>
+      <link>https://hnrss.github.io/#alternative-feeds</link>
+      <pubDate>Sun, 15 Nov 2020 23:13:44 +0000</pubDate>
+      <guid isPermaLink="false">5d76be72-b645-4e2b-a8cf-cf92f68b7774</guid>
+    </item>
+    <item>
       <title><![CDATA[hnrss.org now supports /bestcomments and /classic]]></title>
       <description><![CDATA[<p>Two new endpoints have been added to hnrss.org:</p>
 <ul>
