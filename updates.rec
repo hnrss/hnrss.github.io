@@ -1,5 +1,12 @@
 %rec: Item
 
+Date: Mon, 16 Nov 2020 00:05:13 +0000
+Title: hnrss.org now supports filtering thread comments by user
+Link: https://hnrss.github.io/#thread-feeds
+Description: <p>Attach <code>&author=USERNAME</code> to a thread feed to only see comments from that user.</p>
++ <p>Like so: <a href="https://hnrss.org/item?id=23778510&author=edavis">https://hnrss.org/item?id=23778510&author=edavis</a></p>
+Guid: 1bdd700d-2b3a-4c23-8347-62577d9fb7da
+
 Date: Sun, 15 Nov 2020 23:13:44 +0000
 Title: New endpoints for Best, Invited, Active, and Launches
 Link: https://hnrss.github.io/#alternative-feeds

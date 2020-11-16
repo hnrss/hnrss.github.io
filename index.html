@@ -75,7 +75,7 @@
 
 <tr >
 <td ><a href="#thread-feeds"><strong>Threads</strong></a></td>
-<td>New comments made <a href="https://hnrss.org/item?id=17821181">in a given thread</a>.</td>
+<td>New comments made <a href="https://hnrss.org/item?id=17821181">in a given thread</a>, optionally <a href="https://hnrss.org/item?id=17821181&author=clarky07">filtered by username</a>.</td>
 </tr>
 <tr >
 <td ><a href="#feed-formats"><strong>Formats</strong></a></td>
@@ -206,11 +206,15 @@ https://hnrss.org/favorites?id=edavis
 <p>Note: This scrapes Hacker News first and then fetches from Algolia. For this reason, please be extra conservative with your refresh schedule. Thanks in advance.</p>
 
 <h3 id="thread-feeds">Thread Feeds</h3>
-<p>A feed of new comments on a particular post can be found at:</p>
+<p>A chronological feed of new comments on a particular post can be found at:</p>
 <pre>
 https://hnrss.org/item?id=THREAD_ID
 </pre>
-<p>With <code>THREAD_ID</code> the numerical ID found in the URL when viewing the comments page.</p>
+<p>You can filter this feed by author by providing the <code>author</code> parameter:</p>
+<pre>
+https://hnrss.org/item?id=THREAD_ID&author=USERNAME
+</pre>
+<p>With <code>THREAD_ID</code> the numerical ID found in the URL when viewing the comments page and <code>USERNAME</code> being the author's username.</p>
 
 <h2 id="feed-options">Feed Options</h2>
 <p>You can modify any feed’s output using URL parameters. Multiple parameters can be applied at the same time by joining them with an ampersand.</p>
