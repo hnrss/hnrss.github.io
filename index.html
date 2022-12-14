@@ -282,24 +282,6 @@ https://hnrss.org/ask.jsonfeed?comments=10
 <p>And many, many thanks to all those who have donated in support of the project over the years. You all mean the world to me.</p>
 
 <h2 id="colophon">Colophon</h2>
-<p>hnrss.org is served by nginx on DigitalOcean. HTTPS is provided by Let’s Encrypt. DNS is provided by Namecheap.</p>
-<p>As of September 2018, the feeds are generated using the <a href="https://gin-gonic.github.io/gin/">Gin</a> web framework. From May 2014 to August 2018, the feeds were generated using the <a href="http://flask.pocoo.org/">Flask</a> web framework.</p>
+<p>hnrss.org is powered by the Gin web framework, served by nginx, and hosted on DigitalOcean. HTTPS is provided by Let’s Encrypt. DNS is provided by Namecheap.</p>
 
-<h2 id="repositories">Repositories</h2>
-<p>A brief primer on the various repositories that make up hnrss.org:</p>
-<p>When hnrss.org was created in May 2014, code and documentation lived inside the <a href="https://github.com/edavis/hnrss">edavis/hnrss</a> repository.</p>
-<p>In April 2017, the documentation was revamped, migrated into Hugo, and was given its own repository at <a href="https://github.com/edavis/hnrss-docs">edavis/hnrss-docs</a>. The built assets were copied into the <code>docs/</code> folder on <a href="https://github.com/edavis/hnrss">edavis/hnrss</a> and published at <a href="https://edavis.github.io/hnrss/" class="uri">https://edavis.github.io/hnrss/</a>.</p>
-<p>In August/September 2018, hnrss.org underwent a rewrite from Flask to Gin. This new code lives at <a href="https://github.com/edavis/go-hnrss">edavis/go-hnrss</a>.</p>
-<p>So, as of September 2018, that’s the state of play. The documentation source lives at <a href="https://github.com/edavis/hnrss-docs">edavis/hnrss-docs</a>. The Gin source that powers hnrss.org lives at <a href="https://github.com/edavis/go-hnrss">edavis/go-hnrss</a>.</p>
-<p><a href="https://github.com/edavis/hnrss">edavis/hnrss</a> contains the Flask code that powered the site from May 2014 to August 2018 as well as the <code>docs/</code> folder that contains the built HTML copied from <a href="https://github.com/edavis/hnrss-docs">edavis/hnrss-docs</a>.</p>
-<p>At some point I’d like to simplify all of this and run everything out of one repository, but it’ll do for now.</p>
-
-<p><b>Update (October 2020):</b> Work has (finally) began on simplifying the above.
-The hnrss, go-hnrss, and hnrss-docs repos have been moved to a <a href="https://github.com/hnrss">new GitHub organization</a>.
-The Go code that powers the site has been copied into <a href="https://github.com/hnrss/hnrss">hnrss/hnrss</a>.
-The original Python code will be kept in the <code>python</code> branch.
-The go-hnrss and hnrss-docs repos have been archived.
-A <a href="https://github.com/hnrss/hnrss.github.io">new repo</a> has been created to house the docs.
-The new URL for hnrss.org documentation is <a href="https://hnrss.github.io/">hnrss.github.io</a>.
-
-<p class="updated">This documentation was last updated on May 1, 2021.</p>
+<p class="updated">This documentation was last updated on December 14, 2022.</p>
