@@ -5,6 +5,13 @@
     <link>https://hnrss.org/</link>
     <description>A feed announcing updates related to hnrss.org</description>
     <item>
+      <title><![CDATA[Development RSS feed location has moved]]></title>
+      <description><![CDATA[<p>Please point your feed reader to https://github.com/hnrss/hnrss/releases.atom to continue receiving hnrss development updates. Thanks!</p>]]></description>
+      <link>https://github.com/hnrss/hnrss/releases.atom</link>
+      <pubDate>Wed, 14 Dec 2022 22:19:53 +0000</pubDate>
+      <guid isPermaLink="false">08e7b58c-ca3f-4d1e-9f41-1b2ec33506d3</guid>
+    </item>
+    <item>
       <title><![CDATA[hnrss.org now supports the Second-Chance Pool]]></title>
       <description><![CDATA[<p>The URL is https://hnrss.org/pool and more information is available <a href="https://news.ycombinator.com/item?id=26998308">here</a></p>]]></description>
       <link>https://hnrss.github.io/#alternative-feeds</link>
