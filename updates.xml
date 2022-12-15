@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hnrss.org updates</title>
     <link>https://hnrss.org/</link>
     <description>A feed announcing updates related to hnrss.org</description>
+    <atom:link type="application/atom+xml" rel="self" href="https://github.com/hnrss/hnrss/releases.atom"/>
     <item>
       <title><![CDATA[Development RSS feed location has moved]]></title>
       <description><![CDATA[<p>Please point your feed reader to https://github.com/hnrss/hnrss/releases.atom to continue receiving hnrss development updates. Thanks!</p>]]></description>
